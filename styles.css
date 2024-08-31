@@ -206,6 +206,17 @@ footer {
         text-align: center;
     }
 
+    .features {
+        position: relative;
+        overflow: hidden;
+        margin: 15px auto;
+        padding: 10px;
+        width: 50%;
+        height: 48vh;
+        text-align: center;
+        background-color: #fff;
+    }
+
 
     /* slider*/
     .slider {

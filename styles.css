@@ -97,7 +97,7 @@ html {
     overflow: hidden;
     position: relative;
     width: 80%;
-    height: 30vh;
+    height: 34vh;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -127,8 +127,8 @@ html {
     text-align: center;
     width: 80%;
     height: 30vh;
-    overflow: hidden;
-    margin: 20px auto;
+    overflow: visible;
+    margin: 75px auto;
     border: 0px;
     border-radius: 10px;
 }
@@ -153,7 +153,7 @@ footer {
 }
 
 .social-icons a {
-    color: #fff;
+    color: #110b0b;
     font-size: 24px;
     text-decoration: none;
 }
@@ -195,6 +195,63 @@ footer {
 }
 
 
+.contact-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        background-color: #f4f4f4;
+    }
+    
+    .card {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+    }
+    
+    .contact-image {
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+    
+    .card-content h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .card-content p {
+        font-size: 16px;
+        color: #777;
+        margin-bottom: 20px;
+    }
+    
+    .social-icons-card {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .social-icons-card a {
+        color: #f4f4f4;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    
+    .social-icons-card a:hover {
+        color: #555;
+    }
+    
+
+
 @media (min-width: 768px) {
     .feature-grid {
         flex-direction: column;
@@ -209,6 +266,7 @@ footer {
     .features {
         width: 64%;
         margin-left: 18%;
+        padding-top: 5px;
     }
 
     /* slider*/
@@ -216,10 +274,11 @@ footer {
         overflow: hidden;
         position: relative;
         width: 50%;
-        height: 45vh;
+        height: 60vh;
         margin: 15px auto;
         border: 0px;
         border-radius: 10px;
+        padding-top: 8px;
     }
 
     .maps {
@@ -227,8 +286,8 @@ footer {
         text-align: center;
         width: 50%;
         height: 45vh;
-        overflow: hidden;
-        margin: 15px auto;
+        overflow: visible;
+        margin: 75px auto;
         border: 0px;
         border-radius: 10px;
     }

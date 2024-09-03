@@ -18,9 +18,16 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const toggleButton = document.querySelector('.navbar-toggle');
     const menu = document.querySelector('.navbar-menu');
+    const menuLinks = document.querySelectorAll('.navbar-menu a');
 
     toggleButton.addEventListener('click', () => {
         menu.classList.toggle('active');
+    });
+
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            menu.classList.remove('active');
+        });
     });
 });
 
